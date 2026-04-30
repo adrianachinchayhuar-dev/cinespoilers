@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinespoilers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="navbar">
+            <h1>CineSpoilers</h1>
+            <span>API Django REST</span>
+        </nav>
+
+        <section class="hero-content">
+            <p class="tag"> Movies & Genres</p>
+            <h2>Explora películas cargadas desde tu API</h2>
+            <p>
+                Interfaz moderna conectada a Django REST Framework,
+                mostrando películas, años de estreno y géneros.
+            </p>
+            <a href="#movies" class="btn">Ver películas</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="section-title" id="movies">
+            <p>Catálogo</p>
+            <h2>Películas disponibles</h2>
+        </section>
+
+        <section class="movies-grid" id="moviesContainer">
+            <p class="loading">Cargando películas...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Adriana · Django REST Framework</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -14,7 +14,7 @@ Proyecto desarrollado con Django REST Framework.
 
 ## Levantando el Proyecto
 
-![Project Start](docs/run_project.png)
+![Run Project ](docs/run-project.png)
 
 ---
 
@@ -29,6 +29,32 @@ Proyecto desarrollado con Django REST Framework.
 
 ### Movies con géneros
 
-![Movies Genres](docs/api_genres.png)
+![Api Genres](docs/api_genre.png)
 
 ---
+
+## Carga automática de datos
+
+## Ejecución del comando seed_data
+
+![Seed Data](docs/seed_data.png)
+
+---
+
+## Endpoint Movies con data automática
+
+![Movies JSON](docs/movies.png)
+
+---
+
+# Frontend CineSpoilers
+
+## Interfaz principal conectada a la API
+
+![Frontend](docs/frontend.png)
+
+---
+
+## Catálogo de películas renderizado desde Django REST API
+
+![Frontend Movies](docs/frontend_movies.png)
